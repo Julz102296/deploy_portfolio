@@ -6,10 +6,10 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 
 const Stack = () => {
 
-  const ref = useRef();
+  const container = useRef();
 
   const { scrollYProgress } = useScroll({
-    target: ref,
+    target: container,
     offset: ["start end", "start start"],
   });
 
@@ -18,7 +18,7 @@ const Stack = () => {
 
   return ( 
 
-      <section ref={ref} className="overflow-hidden mb-10">
+      <section ref={container} className="overflow-hidden mb-10">
         <motion.div
             style={{ x: yText }}
             className="text-5xl font-extrabold sm:text-5xl text-slate-700 text-opacity-50 p-2"

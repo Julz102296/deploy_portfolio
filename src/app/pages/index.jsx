@@ -1,8 +1,6 @@
 import styles from "../styles/Home.module.css"
 import Text3d from '../components/Text3d';
 import { useRef } from 'react';
-import Rounded from "../common/RoundedButton/index";
-import Magnetic from "../common/Magnetic/index";
 
 export default function Home() {
 
@@ -24,11 +22,11 @@ export default function Home() {
         <Text3d primary={"Hello"} secondary={"Good Day"}/>
         <Text3d primary={"I'm"} secondary={"27"}/>
         <Text3d primary={"Julios Sagadal"} secondary={"From Rizal"}/>
-        <div className="hero-buttons m-10 items-center flex flex-col justify-center gap-5">
+        {/* <div className="hero-buttons m-10 items-center flex flex-col justify-center gap-5">
             <Rounded>
-            <p>Download CV</p>
+            <p>Scroll to Explore</p>
             </Rounded>
-        </div>
+        </div> */}
       </div>
     </div>
   )

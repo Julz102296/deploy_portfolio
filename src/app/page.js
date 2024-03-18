@@ -36,7 +36,7 @@ export default function Home() {
       {/* <AboutButton /> */}
       <About className="overflow-hidden" />
       <ParallaxSchool />
-      <Stack />
+      {/* <Stack /> */}
       {/* <Extras /> */}
       {/* <IntroText /> */}
       <Experience className="overflow-hidden" />
