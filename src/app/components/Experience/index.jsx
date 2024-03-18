@@ -1,6 +1,5 @@
 "use client"
 import React, { useRef } from 'react'
-import IntroText from "./IntroText/index";
 
 export default function index() {
 
@@ -77,8 +76,6 @@ export default function index() {
           href="#"
           className="relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8"
         >
-
-
             <div className="sm:flex sm:justify-between sm:gap-4">
               <div>
                 <h3 className="text-lg font-bold text-gray-900 sm:text-xl">

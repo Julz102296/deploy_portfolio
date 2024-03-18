@@ -1,9 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useScroll, transform, useTransform, motion } from 'framer-motion';
 import Contact from "../contact";
-import Rounded from "../common/RoundedButton/index";
-import Magnetic from "../common/Magnetic/index";
-import Link from "next/link";
 
 export default function Footer() {
 

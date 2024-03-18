@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion";
-import Rounded from "../common/RoundedButton/index";
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 
