@@ -1,6 +1,6 @@
 "use client"
 import React, { useRef } from 'react'
-import Rounded from "../common/RoundedButton/index";
+import Rounded from "../../common/RoundedButton/index";
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 
 export default function About() {

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useScroll, transform, useTransform, motion } from 'framer-motion';
-import Contact from "../contact";
+import Contact from "../sections/contact/contact";
 
 export default function Footer() {
 

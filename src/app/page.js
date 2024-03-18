@@ -1,8 +1,8 @@
 "use client"
 
 import Hero from "../app/pages/index";
-import About from "./about/page";
-import Portfolio from "./portfolio/page";
+import About from "./sections/about/about";
+import Portfolio from "./sections/portfolio/portfolio";
 import Footer from "../app/components/Footer";
 import Lenis from '@studio-freight/lenis'
 import { useEffect } from "react";

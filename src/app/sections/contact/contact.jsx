@@ -78,7 +78,7 @@ const Contact = () => {
 
             <form ref={form} onSubmit={sendEmail} className="mt-8 grid grid-cols-4 gap-4">
             <div className="col-span-6 sm:col-span-4">
-                <label for="Firstname" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="FirstName" className="block text-sm font-medium text-gray-700">
                 Name
                 </label>
 
@@ -92,7 +92,7 @@ const Contact = () => {
             </div>
 
             <div className="col-span-6 sm:col-span-4">
-                <label for="Email" className="block text-sm font-medium text-gray-700"> Email </label>
+                <label htmlFor="Email" className="block text-sm font-medium text-gray-700"> Email </label>
 
                 <input
                 type="email"
@@ -104,7 +104,7 @@ const Contact = () => {
             </div>
 
             <div className="col-span-6 sm:col-span-4">
-            <label for="OrderNotes" className="block text-sm font-medium text-gray-700"> Message </label>
+            <label htmlFor="OrderNotes" className="block text-sm font-medium text-gray-700"> Message </label>
 
             <textarea
                 id="OrderNotes"
@@ -116,7 +116,7 @@ const Contact = () => {
             </div>
 
             <div className="col-span-6">
-                <label for="MarketingAccept" className="flex gap-4">
+                <label htmlFor="MarketingAccept" className="flex gap-4">
                 <input
                     type="checkbox"
                     id="MarketingAccept"
