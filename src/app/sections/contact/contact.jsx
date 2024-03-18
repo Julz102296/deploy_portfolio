@@ -69,8 +69,7 @@ const Contact = () => {
         className="flex items-center justify-center px-2 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
         >
         <div className="max-w-xl lg:max-w-3xl">
-            <a className="block text-blue-600" href="#">
-            </a>
+
 
                 <h1 className="text-2xl font-bold text-slate-700 sm:text-3xl md:text-5xl">
                 Send a message
