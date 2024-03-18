@@ -10,7 +10,7 @@ import Rotating from "./components/RotatingSvg/Rotating";
 import { useScroll } from "framer-motion";
 import Experience from "../app/components/Experience/index";
 import ParallaxSchool from "./components/ParallaxSchool";
-import Stack from "./components/Stacks/Stack";
+import Stack from "./components/Stuck/Stuck";
 
 
 export default function Home() {
