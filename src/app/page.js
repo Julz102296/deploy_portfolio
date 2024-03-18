@@ -10,7 +10,7 @@ import Rotating from "./components/RotatingSvg/Rotating";
 import { useScroll } from "framer-motion";
 import Experience from "../app/components/Experience/index";
 import ParallaxSchool from "./components/ParallaxSchool";
-import Stack from "./components/Stacks/stack";
+import Stack from "./components/Stacks/Stack";
 
 
 export default function Home() {
@@ -40,7 +40,7 @@ export default function Home() {
       {/* <Extras /> */}
       {/* <IntroText /> */}
       <Experience className="overflow-hidden" />
-      <Rotating scrollYProgress={scrollYProgress} />
+      <Rotating scrollYProgress={scrollYProgress} className="overflow-hidden"/>
       <Portfolio className="overflow-hidden" />
       <Footer className="overflow-hidden" />
     </main>
